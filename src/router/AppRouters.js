@@ -6,6 +6,7 @@ import NavBars from '../components/NavBars';
 
 import UseCounter from '../components/UseCounter';
 import UseStateT from '../components/UseStateT';
+import Addcategoria from '../containers-Ejercicio-Api/Addcategoria';
 
 const AppRouters = () => {
     return (
@@ -16,6 +17,7 @@ const AppRouters = () => {
                 <Route path="/counter" element={<UseCounter/>}/>
                 <Route path="/text" element={<UseStateT/>}/>
                 <Route path="/form" element={<Formulario/>}/>
+                <Route path="/api" element={<Addcategoria/>}/>
             </Routes>
        </BrowserRouter>
     );

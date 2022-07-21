@@ -24,6 +24,7 @@ export default function NavBars() {
        <Link to="/counter"> <Tab value="two" label="Counter" /></Link>
        <Link to="/text"> <Tab value="three" label="UseState" /></Link>
        <Link to="/form"> <Tab value="four" label="CustomHooks" /></Link>
+       <Link to="/api"> <Tab value="four" label="Ejercicio" /></Link>
       </Tabs>
     </Box>
   );

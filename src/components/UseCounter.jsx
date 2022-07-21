@@ -1,17 +1,24 @@
 import React, { useState } from 'react';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+//import { useNavigate } from "react-router-dom"
 
 const UseCounter = () => {
 
     const numero = 10
     const [counter, setCounter] = useState(numero)
 
+    //Importar y renombrar 
+    //const navigate =  useNavigate()
+
     const handleIncrementar = () => {
         setCounter(counter + 1)
     }
     const handleDecrementar = () => {
         setCounter(counter - 1)
+       //llamo al hooks que renombre navigate y entre parentisis le paso la
+     //  navigate('/')
+
     }
     
     const handleReset = () => {
